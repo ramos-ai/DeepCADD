@@ -42,4 +42,4 @@ _tbc_
 
 ## License
 
-This project uses the following license: [MIT](https://github.com/armbrustsamuel/deepcadd/blob/main/LICENCE).
+This project uses the following license: [MIT](https://github.com/armbrustsamuel/DeepCADD/blob/main/LICENSE).
