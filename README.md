@@ -22,10 +22,11 @@ This repository contains the following algorithms:
 
 Before you begin, ensure you have met the following requirements:
 
-* * Python v3.6
-* * Tensorflow v1.x
-* * h5py v2.10.0
-* * Ipython v7.31.0
+* Python v3.6
+* Tensorflow v1.x
+* h5py v2.10.0
+* Ipython v7.31.0
+* OpenCV v4.1.2
 
 ## Usage
 
