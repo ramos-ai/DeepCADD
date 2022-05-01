@@ -30,6 +30,14 @@ Before you begin, ensure you have met the following requirements:
 
 ## Usage
 
+We decided to execute all the experiments using Google Colab PRO, powered by the existing available libraries and avoiding to overload the local machine.
+
+For `CAD segmentation`, copy the notebook available at `segmentation/CAD-segmentation.ipynb`. 
+
+For `DeepCADD backbone` classification, copy the notebook available at `colab/DeepCADD-backbone-ResNet50.ipynb`.
+
+For `DeepCADD` detection, copy the notebook available at `colab/DeepCADD-training-with-ResNet50.ipynb`.
+
 _tbc_
 
 ## Contributors
@@ -38,7 +46,6 @@ Thanks to the following people who have contributed to this project:
 
 * [Samuel Armbrust](https://github.com/armbrustsamuel)
 * [Felipe Andre Zeiser](https://github.com/felipezeiser)
-* 
 
 ## How to cite this research
 
