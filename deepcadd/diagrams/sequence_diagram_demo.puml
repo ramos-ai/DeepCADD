@@ -1,0 +1,31 @@
+@startuml
+
+start
+
+package #lightGreen "Preparation" {
+    :download Mask_RCNN;
+}
+
+package #lightYellow "Dataset" {
+    :image path;
+    :annotation path;
+    :extract images;
+    :define datasets;
+    :define class number;
+}
+
+package #lightBlue "Training" {
+    :define config;
+    :load training model based on config;
+    :train head;
+}
+
+
+package #lightGreen "Detect" {
+    :load test model;
+    :test random image;
+}
+
+stop
+
+@enduml

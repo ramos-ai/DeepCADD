@@ -1,0 +1,39 @@
+@startuml
+
+start
+
+package #lightGreen "Dataset" {
+    :extract_images from image_path;
+    :load_image_dataset with CustomDataset();
+    :-load_custom();
+    :-prepare();
+    :display_image_samples();
+}
+
+package #lightBlue "Training" {
+    :CustomConfig();
+    :load_training_model
+    :-modellib.MaskRCNN();
+    :-load_weights() depending of the init_with variable;
+    :train_head;
+    :-model.train() only the head with hyperparameters;
+}
+
+package #lightGreen "Detect" {
+    :load_test_model;
+    :-InferenceConfig();
+    :-modellib.MaskRCNN();
+    :-model.find_last();
+    :-model.load_weights();
+    :- return model and inferenceConfig;
+    :test_random_image;
+    :-modellib.load_image_gt();
+    :model.detect();
+    :visualize.display_instances() for result;
+    :visualize.display_instances() for annotations;
+}
+
+
+stop
+
+@enduml

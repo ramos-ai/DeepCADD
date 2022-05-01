@@ -1,0 +1,190 @@
+@startuml
+
+class utils {
+    + extract_bboxes()
+    + compute_iou()
+    + compute_overlaps()
+    + compute_overlaps_masks()
+    + non_max_suppression()
+    + box_refinement_graph()
+    + box_refinement()
+    + resize_image()
+    + resize_mask()
+    + minimize_mask()
+    + expand_mask()
+    + mold_mask()
+    + unmold_mask()
+    + generate_anchors()
+    + generate_pyramid_anchors()
+    + trim_zeros()
+    + compute_matches()
+    + compute_ap()
+    + compute_ap_range()
+    + compute_recall()
+    + batch_slice()
+    + download_trained_weights()
+    + norm_boxes()
+    + denorm_boxes()
+    + resize()
+}
+
+class Dataset {
+    - __init__()
+    + add_class()
+    + add_image()
+    + image_reference()
+    + prepare()
+    + map_source_class_id()
+    + get_source_class_id()
+    + source_image_link()
+    + load_image()
+    + load_mask()
+}
+
+utils "1" --* "many" Dataset
+
+class model {
+    + log()
+    + compute_backbone_shapes()
+    + identity_block()
+    + conv_block()
+    + resnet_graph()
+    + apply_box_deltas_graph()
+    + clip_boxes_graph()
+    + log2_graph()
+    + overlaps_graph()
+    + detection_targets_graph()
+    + refine_detections_graph()
+    + rpn_graph()
+    + build_rpn_model()
+    + fpn_classifier_graph()
+    + build_fpn_mask_graph()
+    + smooth_l1_loss()
+    + rpn_class_loss_graph()
+    + rpn_bbox_loss_graph()
+    + mrcnn_class_loss_graph()
+    + mrcnn_bbox_loss_graph()
+    + mrcnn_mask_loss_graph()
+    + load_image_gt()
+    + build_detection_targets()
+    + build_rpn_targets()
+    + generate_random_rois()
+    + data_generator()
+    + compose_image_meta()
+    + parse_image_meta()
+    + parse_image_meta_graph()
+    + mold_image()
+    + unmold_image()
+    + trim_zeros_graph()
+    + batch_pack_graph()
+    + norm_boxes_graph()
+    + denorm_boxes_graph()
+}
+
+class BatchNorm {
+    + call()
+}
+
+class ProposalLayer {
+    - __init__()
+    + call()
+    + compute_output_shape()
+}
+
+class PyramidROIAlign {
+    - __init__()
+    + call()
+    + compute_output_shape()
+}
+
+class DetectionTargetLayer {
+    - __init__()
+    + call()
+    + compute_output_shape()
+    + compute_mask()
+}
+
+class DetectionLayer {
+    - __init__()
+    + call()
+    + compute_output_shape()
+}
+
+class MaskRCNN {
+    - __init__()
+    + build()
+    + find_last()
+    + load_weights()
+    + get_imagenet_weights()
+    + compile()
+    + set_treinable()
+    + set_log_dir()
+    + train()
+    + mold_inputs()
+    + unmold_drections()
+    + detect()
+    + detect_molded()
+    + get_anchors()
+    + ancestor()
+    + find_trainable_layer()
+    + get_trainable_layers()
+    + run_graph()
+}
+
+model --* BatchNorm
+model --* ProposalLayer
+model --* PyramidROIAlign
+model --* DetectionTargetLayer
+model --* DetectionLayer
+model --* MaskRCNN
+model --* utils
+
+class Config {
+    - __init__()
+    + display()
+}
+
+class visualize {
+    + display_images()
+    + random_colors()
+    + get_mask_contours()
+    + apply_mask()
+    + display_instances()
+    + display_differences()
+    + draw_rois()
+    + draw_box()
+    + display_top_masks()
+    + plot_precision_recall()
+    + plot_overlaps()
+    + draw_boxes()
+    + draw_mask()
+}
+
+class InferenceConfig {
+    - __init__()
+    - PU_COUNT
+    - IMAGES_PER_GPU
+    - NAME 
+}
+
+visualize --* InferenceConfig
+
+class ParallelModel {
+    - __init__()
+    - __getattribute__()
+    + summary()
+    + make_parallel()
+}
+
+class __main__ {
+    - GPU_COUNT
+    - ROOT_DIR
+    - MODEL_DIR 
+    + build_model()
+}
+
+ParallelModel --* __main__
+
+model --* Config
+
+@enduml
