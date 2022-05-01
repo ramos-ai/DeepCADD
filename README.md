@@ -7,6 +7,8 @@ This repository contains the following algorithms:
 * **CNN for coronary segment classification**, 
 * **R-CNN for CAD detection**, 
 
+_tbc_
+
 ## Publications
 
 1. FREITAS, Samuel A.; NIENOW, Débora; COSTA, Cristiano A. da; RAMOS, Gabriel de O.. Functional Coronary Artery Assessment: a Systematic Literature Review. In: Wiener Klinische Wochenschrift, 2021. [[link]](https://link.springer.com/article/10.1007/s00508-021-01970-4)
@@ -23,9 +25,11 @@ Before you begin, ensure you have met the following requirements:
 
 * * Python v3.6
 
+_tbc_
+
 ## Usage
 
---- 
+_tbc_
 
 ## How to cite this research
 
@@ -33,6 +37,8 @@ For citing this work, please use the following entries. For entries of the other
 
 ```bibtex
 ```
+
+_tbc_
 
 ## License
 
