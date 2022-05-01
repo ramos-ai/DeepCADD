@@ -1,13 +1,12 @@
 # DeepCADD
 
-This repository contains the source files of our research on DeepCADD: a Deep Neural Network for Automatic Detection of Coronary Artery Disease. 
+This repository contains the source files of our research on DeepCADD: a Deep Neural Network for Automatic Detection of Coronary Artery Disease (CAD). The study contains three main features: CAD segmentation using mainly the Frangi filter; CAD Classification using a ResNet-50; CAD detection using a Mask R-CNN-based architecture.
 
 This repository contains the following algorithms:
-* **Right Coronary Artery (RCA) Segmentation**, 
-* **CNN for coronary segment classification**, 
-* **R-CNN for CAD detection**, 
+* **Right Coronary Artery (RCA) Segmentation**, introduced in [2], which provides a technique for image segmentation of the right coronary artery (RCA) main segment. See experiment at `segmentation/CAD-segmentation.ipynb`
+* **CNN for coronary segment classification**, introduced in [1], which evaluates the performance of ResNet-50 architecture on classifying CAD segments into `stenosed` and `non-stenosed`. See experiment at `colab/DeepCADD-backbone-ResNet50.ipynb`
+* **Mask R-CNN for CAD detection**, introduced in [1], which introduces the use of Mask-RCNN for CAD detection. See experiment at `colab/DeepCADD-running-with-ResNet50-backbone.ipynb` and `colab/DeepCADD-training-with-ResNet50.ipynb`
 
-_tbc_
 
 ## Publications
 
@@ -24,21 +23,47 @@ _tbc_
 Before you begin, ensure you have met the following requirements:
 
 * * Python v3.6
-
-_tbc_
+* * Tensorflow v1.x
+* * h5py v2.10.0
+* * Ipython v7.31.0
 
 ## Usage
 
 _tbc_
+
+## Contributors
+
+Thanks to the following people who have contributed to this project:
+
+* [Samuel Armbrust](https://github.com/armbrustsamuel)
+* [Felipe Andre Zeiser](https://github.com/felipezeiser)
+* 
 
 ## How to cite this research
 
 For citing this work, please use the following entries. For entries of the other works, go to [https://armbrustsamuel.github.io/publications/](https://armbrustsamuel.github.io/publications/).
 
 ```bibtex
+@inproceedings{freitas2021coronary,
+  title={Coronary Artery Disease Automatic Classification},
+  author={Freitas, Samuel A and da Costa, Cristiano A and Ramos, Gabriel de O},
+  booktitle={Anais da VIII Escola Regional de Computa{\c{c}}{\~a}o Aplicada {\`a} Sa{\'u}de},
+  pages={26--29},
+  year={2021},
+  organization={SBC}
+}
 ```
 
-_tbc_
+```bibtex
+@article{freitas2021functional,
+  title={Functional Coronary Artery Assessment: a Systematic Literature Review},
+  author={Freitas, Samuel A and Nienow, D{\'e}bora and da Costa, Cristiano A and Ramos, Gabriel de O},
+  journal={Wiener klinische Wochenschrift},
+  pages={1--17},
+  year={2021},
+  publisher={Springer}
+}
+```
 
 ## License
 
