@@ -5,7 +5,7 @@ This repository contains the source files of our research on DeepCADD: a Deep Ne
 This repository contains the following algorithms:
 * **Right Coronary Artery (RCA) Segmentation**, introduced in [2], which provides a technique for image segmentation of the right coronary artery (RCA) main segment. See experiment at `segmentation/CAD-segmentation.ipynb`
 * **CNN for coronary segment classification**, introduced in [1], which evaluates the performance of ResNet-50 architecture on classifying CAD segments into `stenosed` and `non-stenosed`. See experiment at `colab/DeepCADD-backbone-ResNet50.ipynb`
-* **Mask R-CNN for CAD detection**, introduced in [1], which introduces the use of Mask-RCNN for CAD detection. See experiment at `colab/DeepCADD-running-with-ResNet50-backbone.ipynb` and `colab/DeepCADD-training-with-ResNet50.ipynb`
+* **Mask R-CNN for CAD detection**, introduced in [1], which introduces the use of [Mask-RCNN](https://github.com/matterport/Mask_RCNN) for CAD detection. See experiment at `colab/DeepCADD-running-with-ResNet50-backbone.ipynb` and `colab/DeepCADD-training-with-ResNet50.ipynb`
 
 
 ## Publications
