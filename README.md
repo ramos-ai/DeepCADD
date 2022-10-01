@@ -54,14 +54,13 @@ Thanks to the following people who have contributed to this project:
 For citing this work, please use the following entries. For entries of the other works, go to [https://armbrustsamuel.github.io/publications/](https://armbrustsamuel.github.io/publications/).
 
 ```bibtex
-@inproceedings{freitas2022sbcas,
-  title={DEEPCADD: A Deep Neural Network for Automatic Detection of Coronary Artery Disease},
-  author={FREITAS, Samuel A.; RAMOS, Gabriel de O.; COSTA, Cristiano André da.},
-  booktitle={Concurso de Teses e Dissetações - Anais do Simpósio Brasileiro de Computa{\c{c}}{\~a}o Aplicada {\`a} Sa{\'u}de},
-  pages={25-32},
-  year={2022},
-  organization={SBC}
-}
+@INPROCEEDINGS{freaitas2022ijcnn,  
+  author={Freitas, Samuel A. and Zeiser, Felipe A. and Da Costa, Cristiano A. and De O. Ramos, Gabriel},  
+  booktitle={2022 International Joint Conference on Neural Networks (IJCNN)},   
+  title={DeepCADD: A Deep Learning Architecture for Automatic Detection of Coronary Artery Disease},   
+  year={2022},  
+  pages={1-8},  
+  doi={10.1109/IJCNN55064.2022.9892501}}
 ```
 
 ```bibtex
