@@ -10,15 +10,17 @@ This repository contains the following algorithms:
 
 ## Publications
 
-1. FREITAS, Samuel A.; RAMOS, Gabriel de O.; COSTA, Cristiano André da. DEEPCADD: A Deep Neural Network for Automatic Detection of Coronary Artery Disease. In: CONCURSO DE TESES E DISSERTAÇÕES - SIMPÓSIO BRASILEIRO DE COMPUTAÇÃO APLICADA À SAÚDE (SBCAS), 22. , 2022, Teresina/PI. Anais [...]. Porto Alegre: Sociedade Brasileira de Computação, 2022 . p. 25-32. ISSN 2763-8987. [[link]](https://doi.org/10.5753/sbcas_estendido.2022.222389).
+1. S. A. Freitas, F. A. Zeiser, C. A. Da Costa and G. De O. Ramos, “DeepCADD: A Deep Learning Architecture for Automatic Detection of Coronary Artery Disease,” 2022 International Joint Conference on Neural Networks (IJCNN), 2022, pp. 1-8. [[link]](https://doi.org/10.1109/IJCNN55064.2022.9892501).
 
-2. FREITAS, Samuel A.; NIENOW, Débora; COSTA, Cristiano A. da; RAMOS, Gabriel de O.. Functional Coronary Artery Assessment: a Systematic Literature Review. In: Wiener Klinische Wochenschrift, 2021. [[link]](https://link.springer.com/article/10.1007/s00508-021-01970-4)
+2. FREITAS, Samuel A.; RAMOS, Gabriel de O.; COSTA, Cristiano André da. DEEPCADD: A Deep Neural Network for Automatic Detection of Coronary Artery Disease. In: CONCURSO DE TESES E DISSERTAÇÕES - SIMPÓSIO BRASILEIRO DE COMPUTAÇÃO APLICADA À SAÚDE (SBCAS), 22. , 2022, Teresina/PI. Anais [...]. Porto Alegre: Sociedade Brasileira de Computação, 2022 . p. 25-32. ISSN 2763-8987. [[link]](https://doi.org/10.5753/sbcas_estendido.2022.222389).
 
-3. FREITAS, Samuel A.; COSTA, Cristiano A. da; RAMOS, Gabriel de O.. Coronary Artery Disease Automatic Classification. In: ESCOLA REGIONAL DE COMPUTAÇÃO APLICADA À SAÚDE (ERCAS), 8. , 2021, São Paulo. Anais […]. Porto Alegre: Sociedade Brasileira de Computação, 2021 . p. 26-29. [[link]](https://sol.sbc.org.br/index.php/ercas/article/view/17431/17267)
+3. FREITAS, Samuel A.; NIENOW, Débora; COSTA, Cristiano A. da; RAMOS, Gabriel de O.. Functional Coronary Artery Assessment: a Systematic Literature Review. In: Wiener Klinische Wochenschrift, 2021. [[link]](https://link.springer.com/article/10.1007/s00508-021-01970-4)
 
-4. FREITAS, Samuel; RAMOS, Gabriel; SCHMITH, Jean; COSTA, Cristiano. Nodal Analysis for Coronary Artery Ischemia Diagnosis. In: SIMPÓSIO BRASILEIRO DE COMPUTAÇÃO APLICADA À SAÚDE (SBCAS), 20. , 2020, Evento Online. Anais […]. Porto Alegre: Sociedade Brasileira de Computação, 2020 . p. 262-272. [[link]](https://sol.sbc.org.br/index.php/sbcas/article/view/11519/11382)
+4. FREITAS, Samuel A.; COSTA, Cristiano A. da; RAMOS, Gabriel de O.. Coronary Artery Disease Automatic Classification. In: ESCOLA REGIONAL DE COMPUTAÇÃO APLICADA À SAÚDE (ERCAS), 8. , 2021, São Paulo. Anais […]. Porto Alegre: Sociedade Brasileira de Computação, 2021 . p. 26-29. [[link]](https://sol.sbc.org.br/index.php/ercas/article/view/17431/17267)
 
-5. NIENOW, Débora; FREITAS, Samuel; SCHMITH, Jean. Software para auxílio no diagnóstico de estenoses em artérias coronárias. Arq. Bras. Cardiol: 113 (2 sup l. 1) p. 254. 2019. [[link]](http://publicacoes.cardiol.br/portal/abc/portugues/2019/v11303/pdf/sbc-2019-programa-trabalhos.pdf)
+5. FREITAS, Samuel; RAMOS, Gabriel; SCHMITH, Jean; COSTA, Cristiano. Nodal Analysis for Coronary Artery Ischemia Diagnosis. In: SIMPÓSIO BRASILEIRO DE COMPUTAÇÃO APLICADA À SAÚDE (SBCAS), 20. , 2020, Evento Online. Anais […]. Porto Alegre: Sociedade Brasileira de Computação, 2020 . p. 262-272. [[link]](https://sol.sbc.org.br/index.php/sbcas/article/view/11519/11382)
+
+6. NIENOW, Débora; FREITAS, Samuel; SCHMITH, Jean. Software para auxílio no diagnóstico de estenoses em artérias coronárias. Arq. Bras. Cardiol: 113 (2 sup l. 1) p. 254. 2019. [[link]](http://publicacoes.cardiol.br/portal/abc/portugues/2019/v11303/pdf/sbc-2019-programa-trabalhos.pdf)
 
 ## Requirements
 
