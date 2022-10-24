@@ -2,6 +2,8 @@
 
 This repository contains the source files of our research on DeepCADD: a Deep Neural Network for Automatic Detection of Coronary Artery Disease (CAD). The study contains three main features: CAD segmentation using mainly the Frangi filter; CAD Classification using a ResNet-50; CAD detection using a Mask R-CNN-based architecture.
 
+![img-161-prediction](https://user-images.githubusercontent.com/8709701/197519404-21d548d8-8511-4021-ae45-f51dfafecdc0.png)
+
 This repository contains the following algorithms:
 * **Right Coronary Artery (RCA) Segmentation**, introduced in [2], which provides a technique for image segmentation of the right coronary artery (RCA) main segment. See experiment at `segmentation/CAD-segmentation.ipynb`
 * **CNN for coronary segment classification**, introduced in [1], which evaluates the performance of ResNet-50 architecture on classifying CAD segments into `stenosed` and `non-stenosed`. See experiment at `colab/DeepCADD-backbone-ResNet50.ipynb`
